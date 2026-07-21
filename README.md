@@ -210,7 +210,8 @@ During this challenge, I aim to build practical Computer Vision applications, in
 
 ### Progress: **7 / 60 Days (11.7%)**
 
----
+
+# 📁 Repository Structure
 
 # 📁 Repository Structure
 
@@ -220,14 +221,6 @@ ComputerVision/
 ├── Data/
 ├── Datasets/
 ├── Notes/
-├── Projects/
-│   └── OpenCV_Image_Editor Project/
-│       ├── Image_Editor.py
-│       ├── README.md
-│       ├── sample.jpg
-│       ├── gray_image.jpg
-│       ├── blur_image.jpg
-│       └── edge_image.jpg
 │
 ├── Day01/
 ├── Day02/
@@ -243,6 +236,7 @@ ComputerVision/
 │
 ├── .gitignore
 └── README.md
+```
 
 # 📸 Project Highlights
 
