@@ -61,12 +61,12 @@ Topics covered:
 - Resized images using `cv2.resize()`
 - Cropped images using NumPy slicing
 - Rotated images:
-  - 90 degrees
-  - 180 degrees
-  - 270 degrees
+  - 90°
+  - 180°
+  - 270°
 - Flipped images:
-  - Horizontal flip
-  - Vertical flip
+  - Horizontal
+  - Vertical
 - Saved transformed images using `cv2.imwrite()`
 - Learned basic image transformation techniques
 
@@ -80,14 +80,14 @@ Built a beginner-friendly **Image Editor application** using Python and OpenCV.
 
 ### Features Implemented
 
-✅ Load image using OpenCV  
-✅ Display original image  
-✅ Convert image to grayscale  
-✅ Apply Gaussian Blur  
-✅ Perform Canny Edge Detection  
-✅ Resize image  
-✅ Flip image horizontally  
-✅ Save processed images
+- ✅ Load image
+- ✅ Display original image
+- ✅ Convert to grayscale
+- ✅ Apply Gaussian Blur
+- ✅ Perform Canny Edge Detection
+- ✅ Resize image
+- ✅ Flip image horizontally
+- ✅ Save processed images
 
 ### Concepts Learned
 
@@ -114,11 +114,11 @@ Topics covered:
 
 ### Mini Task Completed
 
-✅ Loaded an image  
-✅ Converted it to grayscale  
-✅ Resized the image  
-✅ Drew a rectangle  
-✅ Drew a circle
+- ✅ Loaded an image
+- ✅ Converted it to grayscale
+- ✅ Resized the image
+- ✅ Drew a rectangle
+- ✅ Drew a circle
 
 ### Concepts Learned
 
@@ -128,6 +128,37 @@ Topics covered:
 - Image flipping
 - Drawing geometric shapes
 - Understanding image coordinates
+
+---
+
+## ✅ Day 07 – Drawing Shapes & Text
+
+Topics covered:
+
+- Created blank images using `np.zeros()`
+- Drew lines using `cv2.line()`
+- Drew rectangles using `cv2.rectangle()`
+- Drew circles using `cv2.circle()`
+- Drew ellipses using `cv2.ellipse()`
+- Drew polygons using `cv2.polylines()`
+- Added text using `cv2.putText()`
+- Learned BGR color values
+- Practiced OpenCV coordinate system `(x, y)`
+
+### Practice Programs
+
+- ✅ Drawing multiple shapes
+- ✅ Five colored circles
+- ✅ Displaying text on images
+
+### Concepts Learned
+
+- Drawing primitives
+- Shape customization
+- Text rendering
+- Filled vs outlined shapes
+- Image coordinates
+- Basic OpenCV graphics
 
 ---
 
@@ -177,8 +208,9 @@ During this challenge, I aim to build practical Computer Vision applications, in
 | Day 04 | Image Transformations | ✅ Completed |
 | Day 05 | OpenCV Image Editor | ✅ Completed |
 | Day 06 | Image Processing Basics | ✅ Completed |
+| Day 07 | Drawing Shapes & Text | ✅ Completed |
 
-### Progress: **6 / 60 Days (10%)**
+### Progress: **7 / 60 Days (11.7%)**
 
 ---
 
@@ -188,39 +220,30 @@ During this challenge, I aim to build practical Computer Vision applications, in
 ComputerVision/
 │
 ├── Data/
+├── Datasets/
+├── Notes/
+├── Projects/
+│   └── OpenCV_Image_Editor Project/
+│       ├── Image_Editor.py
+│       ├── README.md
+│       ├── sample.jpg
+│       ├── gray_image.jpg
+│       ├── blur_image.jpg
+│       └── edge_image.jpg
 │
 ├── Day01/
-│
 ├── Day02/
-│
 ├── Day03/
-│
 ├── Day04/
-│
 ├── Day05/
-│   ├── Image_Editor.py
-│   ├── sample.jpg
-│   ├── gray_image.jpg
-│   ├── blur_image.jpg
-│   └── edge_image.jpg
-│
 ├── Day06/
-│   ├── image_read.py
-│   ├── grayscale.py
-│   ├── resize.py
-│   ├── crop_image.py
-│   ├── Flip_image.py
-│   ├── Rectangle.py
-│   └── circle.py
-│
-├── Datasets/
-│
-├── Notes/
-│
-├── Projects/
+├── Day07/
+│   ├── drawing_shapes.py
+│   ├── color_circles.py
+│   ├── name.py
+│   └── README.md
 │
 ├── .gitignore
-│
 └── README.md
 ```
 
@@ -230,22 +253,21 @@ ComputerVision/
 
 ## 🖼️ Day 05 – OpenCV Image Editor
 
-The project demonstrates:
+Features:
 
-- Reading images
-- Image visualization
+- Image loading
 - Grayscale conversion
-- Blur filtering
+- Gaussian blur
 - Edge detection
 - Image resizing
 - Image flipping
-- Saving output images
+- Saving processed images
 
 ---
 
 ## 🖼️ Day 06 – Image Processing Basics
 
-Programs demonstrate:
+Programs include:
 
 - Reading images
 - Grayscale conversion
@@ -257,13 +279,27 @@ Programs demonstrate:
 
 ---
 
+## 🎨 Day 07 – Drawing Shapes & Text
+
+Programs include:
+
+- Drawing lines
+- Drawing rectangles
+- Drawing circles
+- Drawing ellipses
+- Drawing polygons
+- Writing text with `cv2.putText()`
+- Creating colorful graphics using OpenCV
+
+---
+
 # 🔮 Future Learning Roadmap
 
 Upcoming topics:
 
 - Image Color Spaces (RGB, BGR, HSV)
-- Image Enhancement
 - Thresholding
+- Image Filtering
 - Edge Detection
 - Contour Detection
 - Shape Detection
@@ -286,31 +322,30 @@ Upcoming topics:
 
 **Muhammad Faizan Aslam**
 
-Software Engineering Student | Python | Java | C++ | Computer Vision Learner
+**Software Engineering Student | Python | Java | C++ | Computer Vision Learner**
 
 ---
 
 # ⭐ Connect With Me
 
-If you like this project, consider giving it a ⭐ Star on GitHub.
+If you like this project, consider giving it a ⭐ **Star** on GitHub.
 
 ---
 
 # 🚀 Next Milestone
 
-## ✅ Day 07 – Image Color Spaces & Basic Transformations
+## ✅ Day 08 – Mouse Events & Interactive Drawing
 
 Upcoming topics:
 
-- RGB vs BGR
-- HSV Color Space
-- Color Conversion
-- Image Translation
-- Image Rotation
-- Image Scaling
-- Affine Transformations
+- Mouse Events
+- Mouse Callback Functions
+- Draw Shapes with Mouse
+- Paint Application using OpenCV
+- Interactive Drawing
+- Mouse Coordinates
 
-These concepts will prepare me for color detection, object tracking, and more advanced Computer Vision applications.
+These concepts will introduce interactive computer vision applications and prepare you for more advanced OpenCV projects.
 
 ---
 
