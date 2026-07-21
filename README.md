@@ -139,8 +139,6 @@ Topics covered:
 - Drew lines using `cv2.line()`
 - Drew rectangles using `cv2.rectangle()`
 - Drew circles using `cv2.circle()`
-- Drew ellipses using `cv2.ellipse()`
-- Drew polygons using `cv2.polylines()`
 - Added text using `cv2.putText()`
 - Learned BGR color values
 - Practiced OpenCV coordinate system `(x, y)`
