@@ -243,9 +243,6 @@ ComputerVision/
 │
 ├── .gitignore
 └── README.md
-```
-
----
 
 # 📸 Project Highlights
 
