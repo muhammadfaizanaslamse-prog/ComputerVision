@@ -10,6 +10,8 @@ This repository documents my daily progress as I learn Computer Vision from begi
 
 ## ✅ Day 01 – Introduction to OpenCV
 
+Topics covered:
+
 - Installed OpenCV and required libraries
 - Read images using `cv2.imread()`
 - Displayed images using `cv2.imshow()`
@@ -19,22 +21,24 @@ This repository documents my daily progress as I learn Computer Vision from begi
 
 ## ✅ Day 02 – Image & Video Processing
 
-Learned image properties:
-
-```python
-img.shape
-img.size
-img.dtype
-```
-
 Topics covered:
 
-- Understanding image dimensions
-- Checking image size and data type
+- Understanding image properties:
+  - `img.shape`
+  - `img.size`
+  - `img.dtype`
 - Converted images to grayscale
 - Read video files using OpenCV
 - Played videos frame by frame
 - Captured live video using webcam
+
+### Concepts Learned
+
+- Image dimensions
+- Image size
+- Data types
+- Video processing
+- Webcam capture
 
 ---
 
@@ -49,7 +53,20 @@ Topics covered:
 - Drew circles using `cv2.circle()`
 - Added text using `cv2.putText()`
 - Learned BGR color format
-- Completed OpenCV drawing challenge
+
+### Practice Programs
+
+- Drawing lines
+- Drawing rectangles
+- Drawing circles
+- Drawing text
+
+### Concepts Learned
+
+- Drawing primitives
+- Coordinates
+- Colors
+- Text rendering
 
 ---
 
@@ -60,43 +77,42 @@ Topics covered:
 - Read images using OpenCV
 - Resized images using `cv2.resize()`
 - Cropped images using NumPy slicing
-- Rotated images:
-  - 90°
-  - 180°
-  - 270°
-- Flipped images:
-  - Horizontal
-  - Vertical
-- Saved transformed images using `cv2.imwrite()`
-- Learned basic image transformation techniques
+- Rotated images (90°, 180°, 270°)
+- Flipped images horizontally and vertically
+- Saved processed images using `cv2.imwrite()`
+
+### Concepts Learned
+
+- Image resizing
+- Cropping
+- Rotation
+- Flipping
+- Image saving
 
 ---
 
 ## ✅ Day 05 – OpenCV Image Editor
 
-### 🖼️ Project: Basic Image Editor using OpenCV
+### 🖼️ Project: Basic Image Editor
 
-Built a beginner-friendly **Image Editor application** using Python and OpenCV.
+Features implemented:
 
-### Features Implemented
-
-- ✅ Load image
-- ✅ Display original image
-- ✅ Convert to grayscale
-- ✅ Apply Gaussian Blur
-- ✅ Perform Canny Edge Detection
-- ✅ Resize image
-- ✅ Flip image horizontally
-- ✅ Save processed images
+- Load image
+- Display original image
+- Convert to grayscale
+- Apply Gaussian Blur
+- Perform Canny Edge Detection
+- Resize image
+- Flip image horizontally
+- Save processed image
 
 ### Concepts Learned
 
-- Image processing workflow
-- Image color conversion
+- Image preprocessing
 - Image filtering
 - Edge detection
 - Image transformations
-- Saving processed outputs
+- Saving processed images
 
 ---
 
@@ -104,30 +120,28 @@ Built a beginner-friendly **Image Editor application** using Python and OpenCV.
 
 Topics covered:
 
-- Read images using `cv2.imread()`
-- Converted images to grayscale using `cv2.cvtColor()`
-- Resized images using `cv2.resize()`
-- Cropped images using NumPy slicing
-- Flipped images using `cv2.flip()`
-- Drew rectangles using `cv2.rectangle()`
-- Drew circles using `cv2.circle()`
+- Read images
+- Convert images to grayscale
+- Resize images
+- Crop images
+- Flip images
+- Draw rectangles
+- Draw circles
 
 ### Mini Task Completed
 
-- ✅ Loaded an image
-- ✅ Converted it to grayscale
-- ✅ Resized the image
-- ✅ Drew a rectangle
-- ✅ Drew a circle
+- Loaded an image
+- Converted it to grayscale
+- Resized the image
+- Drew a rectangle
+- Drew a circle
 
 ### Concepts Learned
 
-- Basic image manipulation
+- Image manipulation
 - Image preprocessing
-- Image resizing and cropping
-- Image flipping
-- Drawing geometric shapes
-- Understanding image coordinates
+- Geometric drawing
+- Image coordinates
 
 ---
 
@@ -136,27 +150,58 @@ Topics covered:
 Topics covered:
 
 - Created blank images using `np.zeros()`
-- Drew lines using `cv2.line()`
-- Drew rectangles using `cv2.rectangle()`
-- Drew circles using `cv2.circle()`
+- Drew lines
+- Drew rectangles
+- Drew circles
 - Added text using `cv2.putText()`
 - Learned BGR color values
-- Practiced OpenCV coordinate system `(x, y)`
+- Practiced OpenCV coordinate system
 
 ### Practice Programs
 
-- ✅ Drawing multiple shapes
-- ✅ Five colored circles
-- ✅ Displaying text on images
+- Drawing multiple shapes
+- Five colored circles
+- Displaying text
 
 ### Concepts Learned
 
 - Drawing primitives
 - Shape customization
-- Text rendering
 - Filled vs outlined shapes
-- Image coordinates
-- Basic OpenCV graphics
+- Text rendering
+- Coordinate system
+
+---
+
+## ✅ Day 08 – Color Detection using HSV & Trackbars
+
+Topics covered:
+
+- Introduction to HSV (Hue, Saturation, Value)
+- Difference between BGR and HSV
+- Converted images from BGR to HSV using `cv2.cvtColor()`
+- Created interactive Trackbars using `cv2.createTrackbar()`
+- Read Trackbar values using `cv2.getTrackbarPos()`
+- Created lower and upper HSV ranges
+- Generated binary masks using `cv2.inRange()`
+- Extracted detected colors using `cv2.bitwise_and()`
+- Performed real-time color detection using a webcam
+
+### Practice Programs
+
+- BGR to HSV Conversion
+- Trackbar Window
+- Color Detection using Image
+- Real-Time Webcam Color Detection
+
+### Concepts Learned
+
+- HSV Color Space
+- Color Segmentation
+- Interactive Trackbars
+- Binary Masking
+- Image Masking
+- Real-Time Color Detection
 
 ---
 
@@ -165,6 +210,7 @@ Topics covered:
 | Week | Project | Status |
 |------|---------|--------|
 | Week 1 | 🖼️ OpenCV Image Editor | ✅ Completed |
+| Week 2 | 🎨 Real-Time Color Detection using HSV | 🚧 In Progress |
 
 ---
 
@@ -199,7 +245,7 @@ During this challenge, I aim to build practical Computer Vision applications, in
 # 📅 Challenge Progress
 
 | Day | Topic | Status |
-|------|-----------------------------|--------|
+|------|---------------------------------------------|--------|
 | Day 01 | Introduction to OpenCV | ✅ Completed |
 | Day 02 | Image & Video Processing | ✅ Completed |
 | Day 03 | Drawing in OpenCV | ✅ Completed |
@@ -207,11 +253,11 @@ During this challenge, I aim to build practical Computer Vision applications, in
 | Day 05 | OpenCV Image Editor | ✅ Completed |
 | Day 06 | Image Processing Basics | ✅ Completed |
 | Day 07 | Drawing Shapes & Text | ✅ Completed |
+| Day 08 | Color Detection using HSV & Trackbars | ✅ Completed |
 
-### Progress: **7 / 60 Days (11.7%)**
+### 📈 Progress: **8 / 60 Days (13.3%)**
 
-
-# 📁 Repository Structure
+---
 
 # 📁 Repository Structure
 
@@ -229,14 +275,23 @@ ComputerVision/
 ├── Day05/
 ├── Day06/
 ├── Day07/
-│   ├── drawing_shapes.py
-│   ├── color_circles.py
-│   ├── name.py
+├── Day08/
+│   ├── Images/
+│   │   ├── color_detection.jpg
+│   │   ├── color_detection_result_using_webcam.png
+│   │   └── image_hsv.jpg
+│   │
+│   ├── BGR_to_HSV.py
+│   ├── Trackbar_Window.py
+│   ├── color_detection.py
+│   ├── color_detection_webcam.py
 │   └── README.md
 │
 ├── .gitignore
 └── README.md
 ```
+
+---
 
 # 📸 Project Highlights
 
@@ -246,11 +301,11 @@ Features:
 
 - Image loading
 - Grayscale conversion
-- Gaussian blur
-- Edge detection
+- Gaussian Blur
+- Canny Edge Detection
 - Image resizing
 - Image flipping
-- Saving processed images
+- Save processed images
 
 ---
 
@@ -275,10 +330,21 @@ Programs include:
 - Drawing lines
 - Drawing rectangles
 - Drawing circles
-- Drawing ellipses
-- Drawing polygons
-- Writing text with `cv2.putText()`
-- Creating colorful graphics using OpenCV
+- Writing text
+- Colorful graphics using OpenCV
+
+---
+
+## 🎨 Day 08 – Color Detection using HSV & Trackbars
+
+Programs include:
+
+- BGR to HSV Conversion
+- HSV Trackbars
+- Color Detection from Images
+- Binary Mask Creation
+- Color Extraction using `cv2.bitwise_and()`
+- Real-Time Webcam Color Detection
 
 ---
 
@@ -286,13 +352,11 @@ Programs include:
 
 Upcoming topics:
 
-- Image Color Spaces (RGB, BGR, HSV)
 - Thresholding
 - Image Filtering
 - Edge Detection
 - Contour Detection
 - Shape Detection
-- Color Detection
 - Object Tracking
 - Hand Tracking using MediaPipe
 - Gesture Recognition
@@ -323,18 +387,19 @@ If you like this project, consider giving it a ⭐ **Star** on GitHub.
 
 # 🚀 Next Milestone
 
-## ✅ Day 08 – Mouse Events & Interactive Drawing
+## ✅ Day 09 – Thresholding
 
 Upcoming topics:
 
-- Mouse Events
-- Mouse Callback Functions
-- Draw Shapes with Mouse
-- Paint Application using OpenCV
-- Interactive Drawing
-- Mouse Coordinates
+- Binary Thresholding
+- Binary Inverse Thresholding
+- Truncate Thresholding
+- To Zero Thresholding
+- To Zero Inverse Thresholding
+- Adaptive Thresholding
+- Otsu Thresholding
 
-These concepts will introduce interactive computer vision applications and prepare you for more advanced OpenCV projects.
+These concepts will help me separate foreground objects from the background and prepare for Edge Detection, Contour Detection, Shape Detection, and Object Tracking.
 
 ---
 
