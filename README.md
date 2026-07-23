@@ -205,12 +205,42 @@ Topics covered:
 
 ---
 
+## ✅ Day 09 – Thresholding
+
+Topics covered:
+
+- Introduction to Image Thresholding
+- Binary Thresholding
+- Binary Inverse Thresholding
+- Truncate Thresholding
+- To Zero Thresholding
+- Understanding threshold values (`127`, `255`)
+- Saved processed images using `cv2.imwrite()`
+
+### Practice Programs
+
+- Binary Threshold
+- Binary Inverse Threshold
+- Truncate Threshold
+- To Zero Threshold
+
+### Concepts Learned
+
+- Image Thresholding
+- Binary Images
+- Foreground & Background Separation
+- Pixel Value Comparison
+- Image Segmentation Basics
+
+---
+
 # 🚀 Weekly Projects
 
 | Week | Project | Status |
 |------|---------|--------|
 | Week 1 | 🖼️ OpenCV Image Editor | ✅ Completed |
-| Week 2 | 🎨 Real-Time Color Detection using HSV | 🚧 In Progress |
+| Week 2 | 🎨 Real-Time Color Detection using HSV | ✅ Completed |
+| Week 2 | ⚫ Thresholding Techniques | 🚧 In Progress |
 
 ---
 
@@ -254,8 +284,9 @@ During this challenge, I aim to build practical Computer Vision applications, in
 | Day 06 | Image Processing Basics | ✅ Completed |
 | Day 07 | Drawing Shapes & Text | ✅ Completed |
 | Day 08 | Color Detection using HSV & Trackbars | ✅ Completed |
+| Day 09 | Thresholding | ✅ Completed |
 
-### 📈 Progress: **8 / 60 Days (13.3%)**
+### 📈 Progress: **9 / 60 Days (15.0%)**
 
 ---
 
@@ -276,15 +307,19 @@ ComputerVision/
 ├── Day06/
 ├── Day07/
 ├── Day08/
-│   ├── Images/
-│   │   ├── color_detection.jpg
-│   │   ├── color_detection_result_using_webcam.png
-│   │   └── image_hsv.jpg
+│
+├── Day09/
+│   ├── Resources/
+│   │   ├── Binary_image.jpg
+│   │   ├── binary_inverse.jpg
+│   │   ├── gray_image.jpg
+│   │   ├── tozero.jpg
+│   │   └── truncate.jpg
 │   │
-│   ├── BGR_to_HSV.py
-│   ├── Trackbar_Window.py
-│   ├── color_detection.py
-│   ├── color_detection_webcam.py
+│   ├── binary_threshold.py
+│   ├── binary_inverse.py
+│   ├── truncate_threshold.py
+│   ├── tozero_threshold.py
 │   └── README.md
 │
 ├── .gitignore
@@ -348,13 +383,24 @@ Programs include:
 
 ---
 
+## ⚫ Day 09 – Thresholding
+
+Programs include:
+
+- Binary Thresholding
+- Binary Inverse Thresholding
+- Truncate Thresholding
+- To Zero Thresholding
+- Saving processed threshold images
+
+---
+
 # 🔮 Future Learning Roadmap
 
 Upcoming topics:
 
-- Thresholding
-- Image Filtering
 - Edge Detection
+- Image Filtering
 - Contour Detection
 - Shape Detection
 - Object Tracking
@@ -387,19 +433,18 @@ If you like this project, consider giving it a ⭐ **Star** on GitHub.
 
 # 🚀 Next Milestone
 
-## ✅ Day 09 – Thresholding
+## ⏳ Day 10 – Edge Detection
 
 Upcoming topics:
 
-- Binary Thresholding
-- Binary Inverse Thresholding
-- Truncate Thresholding
-- To Zero Thresholding
-- To Zero Inverse Thresholding
-- Adaptive Thresholding
-- Otsu Thresholding
+- Sobel Operator
+- Laplacian Operator
+- Canny Edge Detection
+- Image Gradient
+- Edge Comparison
+- Practical Edge Detection Applications
 
-These concepts will help me separate foreground objects from the background and prepare for Edge Detection, Contour Detection, Shape Detection, and Object Tracking.
+These concepts will help me detect object boundaries and prepare for Contour Detection, Shape Detection, Object Tracking, and advanced Computer Vision applications.
 
 ---
 
