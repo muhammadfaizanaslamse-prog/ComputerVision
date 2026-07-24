@@ -217,6 +217,7 @@ Topics covered:
 - Understanding threshold values (`127`, `255`)
 - Saved processed images using `cv2.imwrite()`
 
+
 ### Practice Programs
 
 - Binary Threshold
@@ -232,7 +233,33 @@ Topics covered:
 - Pixel Value Comparison
 - Image Segmentation Basics
 
----
+## ✅ Day 10 – Edge Detection (Canny)
+
+Topics covered:
+
+- Introduction to Edge Detection
+- Understanding image gradients
+- Noise reduction using Gaussian Blur
+- Canny Edge Detection using `cv2.Canny()`
+- Effect of lower and upper threshold values
+- Compared different Canny threshold values
+- Real-time edge detection using webcam
+- Saved processed images using `cv2.imwrite()`
+
+### Practice Programs
+
+- Basic Edge Detection
+- Canny Threshold Comparison
+- Real-Time Webcam Edge Detection
+
+### Concepts Learned
+
+- Edge Detection
+- Gaussian Blur
+- Image Gradients
+- Canny Algorithm
+- Threshold Tuning
+- Noise Reduction
 
 # 🚀 Weekly Projects
 
@@ -240,7 +267,8 @@ Topics covered:
 |------|---------|--------|
 | Week 1 | 🖼️ OpenCV Image Editor | ✅ Completed |
 | Week 2 | 🎨 Real-Time Color Detection using HSV | ✅ Completed |
-| Week 2 | ⚫ Thresholding Techniques | 🚧 In Progress |
+| Week 2 | ⚫ Thresholding Techniques | ✅ Completed |
+| Week 2 | ✨ Canny Edge Detection | ✅ Completed |
 
 ---
 
@@ -285,8 +313,9 @@ During this challenge, I aim to build practical Computer Vision applications, in
 | Day 07 | Drawing Shapes & Text | ✅ Completed |
 | Day 08 | Color Detection using HSV & Trackbars | ✅ Completed |
 | Day 09 | Thresholding | ✅ Completed |
+| Day 10 | Edge Detection (Canny) | ✅ Completed |
 
-### 📈 Progress: **9 / 60 Days (15.0%)**
+### 📈 Progress: **10 / 60 Days (16.7%)**
 
 ---
 
@@ -309,17 +338,20 @@ ComputerVision/
 ├── Day08/
 │
 ├── Day09/
-│   ├── Resources/
-│   │   ├── Binary_image.jpg
-│   │   ├── binary_inverse.jpg
-│   │   ├── gray_image.jpg
-│   │   ├── tozero.jpg
-│   │   └── truncate.jpg
+├── Day10/
+│   ├── img_resources/
+│   │   ├── original.jpg
+│   │   ├── gray.jpg
+│   │   ├── blur.jpg
+│   │   ├── edges.jpg
+│   │   ├── canny_50_100.jpg
+│   │   ├── canny_100_200.jpg
+│   │   ├── canny_150_250.jpg
+│   │   └── Cam_photo.jpg
 │   │
-│   ├── binary_threshold.py
-│   ├── binary_inverse.py
-│   ├── truncate_threshold.py
-│   ├── tozero_threshold.py
+│   ├── edge_detection.py
+│   ├── canny_threshold.py
+│   ├── live_edge_detection.py
 │   └── README.md
 │
 ├── .gitignore
@@ -393,14 +425,20 @@ Programs include:
 - To Zero Thresholding
 - Saving processed threshold images
 
----
+## ✨ Day 10 – Edge Detection (Canny)
+
+Programs include:
+
+- Basic Canny Edge Detection
+- Gaussian Blur for Noise Reduction
+- Edge Detection with Different Threshold Values
+- Real-Time Webcam Edge Detection
+- Saving Edge Detection Results
 
 # 🔮 Future Learning Roadmap
 
 Upcoming topics:
 
-- Edge Detection
-- Image Filtering
 - Contour Detection
 - Shape Detection
 - Object Tracking
@@ -433,16 +471,19 @@ If you like this project, consider giving it a ⭐ **Star** on GitHub.
 
 # 🚀 Next Milestone
 
-## ⏳ Day 10 – Edge Detection
+## ⏳ Day 11 – Contour Detection
 
 Upcoming topics:
 
-- Sobel Operator
-- Laplacian Operator
-- Canny Edge Detection
-- Image Gradient
-- Edge Comparison
-- Practical Edge Detection Applications
+- Finding Contours
+- Contour Area
+- Contour Perimeter
+- Bounding Rectangles
+- Drawing Contours
+- Shape Approximation
+- Object Boundary Detection
+
+These concepts will help me identify and analyze object shapes, preparing for Shape Detection, Object Tracking, Image Segmentation, and Object Detection.
 
 These concepts will help me detect object boundaries and prepare for Contour Detection, Shape Detection, Object Tracking, and advanced Computer Vision applications.
 
